@@ -1,0 +1,52 @@
+.topCat {
+    position: relative;
+}
+.topCart {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+.topCart::-webkit-scrollbar{
+    display: none;
+}
+.product {
+    background: #fff;
+    padding: 20px;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: rgb(3 0 71 / 10%) 0 1px 3px;
+    margin: 10px;
+    transition: transform 500ms;
+}
+.product:hover{
+    cursor: pointer;
+    transform: scale(1.06);
+}
+img {
+    width: 250px;
+    height: 250px;
+}
+.nametop {
+    position: relative;
+    width: 100%;
+}
+.nametop span {
+    background-color: #0f3460;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 50px;
+    margin: 5px;
+    position: absolute;
+    top: 0;
+}
+.nametop .tleft {
+    left: 0;
+}
+.nametop .tright {
+    background-color: aliceblue;
+    color: #000;
+    position: absolute;
+    right: 0;
+}

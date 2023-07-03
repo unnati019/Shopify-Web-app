@@ -1,0 +1,39 @@
+.discount_deals {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 10px;
+}
+.discount_deals::-webkit-scrollbar{
+    display: none;
+}
+.discount .product {
+    padding: 10px;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: rgb(3 0 71 / 10%) 0 1px 3px;
+    margin: 10px;
+    transition: transform 500ms;
+}
+.discount .product:hover{
+    transform: scale(1.08);
+    opacity: 1;
+}
+.heading img {
+    width: 40px;
+    height: 40px;
+}
+.discount h4{
+    font-weight: 500;
+    font-size: 15px;
+    color: black;
+}
+.discount span {
+    color: #e94560;
+    font-size: 15px;
+    font-weight: 500;
+}
+.discount .box img{
+    width: 150px;
+    height: 150px;
+}
